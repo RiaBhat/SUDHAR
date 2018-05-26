@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sudhar.History1">
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Enter Your Complaint Number To Track Your Progress-"
+        />
+    <EditText
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/a1"
+        android:layout_marginTop="20dp"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/a3"
+        android:typeface="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/a2"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/lightPurple"
+        android:text="track complaint"
+        />
+
+</RelativeLayout>
